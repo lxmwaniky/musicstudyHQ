@@ -29,7 +29,7 @@ Beyond study resources, our website hosts a thriving community forum for all thi
 
 3. **Share Your Progress:** Proud of a recent musical achievement? Share your performances, compositions, or progress with our community. We celebrate each other's successes!
 
-4. **Collaborate and Connect:** Connect with like-minded musicians, form study groups, or find potential collaborators for music projects.
+4. **Collaborate and Connect:** Connect with like-minded students, form study groups, or find potential collaborators for music projects.
 
 ## Get Involved!
 
