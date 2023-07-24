@@ -45,7 +45,7 @@ We encourage you to get involved in our music-loving community:
 
 ## Contact Us
 
-If you have any questions, feedback, or suggestions, we'd love to hear from you. Reach out to us through our [contact form](mailto:contact@musicstudyhq.com), and we'll get back to you as soon as possible.
+If you have any questions, feedback, or suggestions, we'd love to hear from you. Reach out to us through our [contact form](#), and we'll get back to you as soon as possible.
 
 Thank you for choosing the Music Study HQ as your music learning companion. Let's embark on a harmonious journey of musical exploration together!
 
