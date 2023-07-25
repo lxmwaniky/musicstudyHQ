@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+*{
+    background-color: lightblue;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+.logo {
+    width: 150px;
+    height: auto; 
+}
+.nav-links {
+    margin-left: auto;
+}
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px; 
+}
+.nav-links a:hover {
+    color: blueviolet;
+}
