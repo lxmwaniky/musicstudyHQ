@@ -10,3 +10,9 @@ app.use(morgan('dev'))
 
 //Setup middleware to parse JSON POST and PUT requests
 app.use(Express.json())
+
+app.listen(KEYS.PORT, async () => {
+    console.log(`Server is listening for requests on port ${KEYS.PORT}`)
+
+
+})
