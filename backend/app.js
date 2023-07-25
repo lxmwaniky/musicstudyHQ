@@ -1,6 +1,6 @@
-import { Express } from "express";
-import { KEYS } from "./config/keys";
-import { client } from "./config/database";
+import Express from "express";
+import { KEYS } from "./config/keys.js";
+import { client } from "./config/database.js";
 import morgan from "morgan";
 
 const app = Express();

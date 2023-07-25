@@ -1,5 +1,5 @@
-import dotnev from "dotnev"
-dotnev.config();
+import dotenv from "dotenv"
+dotenv.config();
 
 export const KEYS = {
     PORT: process.env.PORT || 8000,
