@@ -14,5 +14,12 @@ app.use(Express.json())
 app.listen(KEYS.PORT, async () => {
     console.log(`Server is listening for requests on port ${KEYS.PORT}`)
 
+    try {
+        //Connect Express App to PostgreSQL database
+        await client.connect();
 
+        console.log("Database is connected");
+    } catch (error) {
+        console.log(error)
+    }
 })
