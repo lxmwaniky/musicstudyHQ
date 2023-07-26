@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 *{
-    background-color: lightblue;
+    background-color: rgb(88, 136, 155);
+    font-family: 'Lato', sans-serif;
 }
 
 body, h1, h2, h3, p, ul, li {
@@ -13,6 +14,8 @@ nav {
     align-items: center; 
 }
 .logo {
+    margin-left: 50px;
+    margin-top: 50px;
     width: 150px;
     height: auto; 
 }
@@ -20,11 +23,11 @@ nav {
     margin-left: auto;
 }
 .nav-links a {
-    color: #333;
+    color: #021d33;
     text-decoration: none;
     margin-right: 20px;
     font-size: 20px; 
 }
 .nav-links a:hover {
-    color: blueviolet;
+    color: rgb(116, 226, 43);
 }
