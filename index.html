@@ -1,65 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Web page CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/icons/site.webmanifest">
-    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Music Study HQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/image-logo.png" type="image/x-icon">
   </head>
   <body>
 
-    <!-- Navbar -->
-    <nav>
-        <!--Logo-->
-        <a href="index.html"><img src="assets/img/musicstudyhq-high-resolution-logo-black-on-transparent-background.png" alt="Music Study HQ Logo" class="logo"></a>
-        
-        <!--Nav Links-->
-        <div class="nav-links">
-            <a href="#">Theory</a>
-            <a href="#">African Music</a>
-            <a href="#">Western Music</a>
-            <a href="#">Practicals</a>
-            <a href="#">Community</a>
-            <a href="#">Sign In</a>
+   <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-success">
+        <a href="" class="navbar-brand p-4">Music Study HQ</a>
+
+        <button class="navbar-toggler p-3" data-bs-target="#mynavigation"  data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mynavigation" class="collapse navbar-collapse" >
+
+            <div class="navbar-nav">
+                <li class="navbar-nav">
+                    <a href="" class="nav-link">Theory</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Western</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a href="" class="nav-link">African</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">Practical</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Community</a>
+                </li>
+                <button class="btn btn-info">Sign In</button>
+            </div>
         </div>
-
     </nav>
-    
-<h2>
-  hello
-</h2>
+
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+                    <!--wrapper for the items-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/image3.png" class="w-100 d-block" height="600px" width="600px">
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="assets/img/image2.png" class="w-100 d-block" height="600px" width="600px">
+                        </div> -->
+                        <!-- <div class="carousel-item">
+                            <img src="assets/img/image1.png" class="w-100 d-block" height="600px" width="600px">
+                        </div> -->
+                        <div class="carousel-item">
+                            <img src="assets/img/image4.png" class="w-100 d-block" height="600px" width="600px">
+                        </div>
+                    </div>
+                    <!--carousel control buttons-->
+                    <button class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="assets/js/script.js"></script>
-
-    <!-- Ion icons CDN -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
