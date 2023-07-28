@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-*{
+/* *{
     background-color: rgb(88, 136, 155);
     font-family: 'Lato', sans-serif;
-}
+} */
 
 body, h1, h2, h3, p, ul, li {
     margin: 0;
