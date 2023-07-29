@@ -1,5 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #282936;
+    color: #fff;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #282999;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 23px;
+  }
+  .menu li:hover {
+    background-color: #282936;
+    border-radius: 25px;
+    transition: 0.01s ease-out;
+  }
+  .menu li {
+    padding: 5px 14px;
+  }
+  .logo {
+    font-size: 35px;
+  }
+  .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  .practicals {
+    position: relative; 
+  }
+  .dropdown {
+    background-color: #282936;
+    padding: 1em 0em;
+    position: absolute; 
+    display: none;
+    border-radius: 10px;
+    top: 35px;
+    left: 0px;
+    right: 
+  }
+  .dropdown li + li {
+    margin-top: 5px;
+  } 
+  .dropdown li {
+    padding: 0.05em 2em;
+    width: 8em;
+    text-align: center;
+  }
+  .dropdown li:hover {
+    background-color: rgba(128, 128, 128, 0);
+  }
+  
+  .practicals:hover .dropdown {
+    display: block;
+  }
+  ul{
+    list-style: none;
+  }
 
-button {
+
+  button {
+    margin-top: 20px;
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -86,3 +162,7 @@ button {
    button:hover .button-text {
     color: #fff;
 }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
