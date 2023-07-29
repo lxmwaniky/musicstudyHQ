@@ -51,9 +51,9 @@
     display: none;
     border-radius: 10px;
     top: 35px;
-    left: 0px;
-    right: 
+    left: 0px; 
   }
+
   .dropdown li + li {
     margin-top: 5px;
   } 
