@@ -18,15 +18,16 @@
     align-items: center;
     padding: 0 5%;
     position: relative;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
   }
   .navbar ul {
     list-style: none;
     display: flex;
   }
   .navbar ul li {
-    /* width: 120px; */
     padding: 10px 30px;
-    /* text-align: center; */
     position: relative;
   }
   .navbar ul li a {
