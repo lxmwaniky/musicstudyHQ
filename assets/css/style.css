@@ -26,9 +26,7 @@
     display: flex;
   }
   .navbar ul li {
-    /* width: 120px; */
     padding: 10px 30px;
-    /* text-align: center; */
     position: relative;
   }
   .navbar ul li a {
