@@ -17,7 +17,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    position: relative;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
   }
   .navbar ul {
     list-style: none;
@@ -109,10 +111,10 @@
   .btn:hover span{
     left: calc(100% - 55px);
   }
-  /*.btn:after{
+  .btn:after{
     content: '';
     position: absolute;
     width: 80px;
     height: 100px;
     z-index: 1;
-  }*/
+  }
