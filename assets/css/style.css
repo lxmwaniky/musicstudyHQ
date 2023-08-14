@@ -173,3 +173,6 @@
 #dropdowns{
   background: wheat;
 }
+.carousel-item{
+animation-duration: 10ms;
+}
